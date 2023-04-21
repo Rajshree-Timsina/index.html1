@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+
+
+    <head>
+        <meta charset="utf-8">
+        <title>User registeration form</title>
+        <style>
+            body {
+              background-image: url("https://t4.ftcdn.net/jpg/03/64/06/63/360_F_364066345_J2BALXtfQ4AgHRklR6upvWN3y0glC1pM.jpg");
+              background-size: cover;
+            }
+          </style>    
+    </head>
+    <body style="background-color: rgb(255, 255, 255);"> 
+        <h1>User registeration form</h1>
+        <form action="./formSuccess.html">
+            <!--INPUT TYPE = TEXT -->
+            <label for="uname">Username:</label><br>
+            <input type="text" id="uname" name="uname" value="" minlength="1" maxlength="10" required><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="lname" value="" required ><br>
+            <label for="pwd">Password:</label><br>
+            <input type="text" id="pwd" name="pwd" value="" required ><br>
+            <label for="cpwd">Confirm Password:</label><br>
+            <input type="text" id="cpwd" name="cpwd" value="" required ><br><br>
+
+                        <!--INPUT TYPE = CHECKBOX -->
+                        <label for="subject">Profession</label><br>
+                        <input type="checkbox" id="subject1" value="" 
+                        <label for="subject1">Teacher</label><br>
+                        <input type="checkbox" id="subject2" value="" >
+                        <label for="subject">Student</label><br><br>
+
+            <!--INPUT TYPE = SUBMIT -->
+            <input type="submit" value="Register">
+
+    </body>
+  </html>
